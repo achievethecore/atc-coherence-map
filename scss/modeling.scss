@@ -1,0 +1,100 @@
+.node {
+  .button,
+  button {
+    font-family: museo_sans300;
+    font-weight: 300;
+  }
+}
+
+.icon-down {
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+
+  &:after, &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+  }
+  &:before {
+    top: 50%;
+    left: 50%;
+    right: 12px;
+    width: 7px;
+    height: 7px;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -5px) rotate(135deg);
+    box-shadow: inset -1px 1px 0 0 #fff;
+    border-radius: 0 1px 0 0;
+  }
+  
+  &:after {
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 12px;
+    transform: translate(-50%, -10px);
+    background-color: #fff;
+  }
+}
+
+.modeling-wrapper {
+  display: inline;
+}
+
+.modeling-container {
+  width: 1165px;
+  margin: 40px auto;
+  padding: 15px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  box-shadow: -3px 3px #d5d3cf, -2px 2px #d5d3cf, -1px 1px #d5d3cf;
+
+  -webkit-animation: scaleToMax .5s; /* Safari 4+ */
+  -moz-animation:    scaleToMax .5s; /* Fx 5+ */
+  -o-animation:      scaleToMax .5s; /* Opera 11.5+ */
+  animation:         scaleToMax .5s; /* IE 10+, Fx 29+ */
+  
+}
+@media (max-width: 1200px) and (min-width: 960px){
+  .modeling-container {
+    width: 95%;
+
+  }
+}
+@-webkit-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-moz-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-o-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}

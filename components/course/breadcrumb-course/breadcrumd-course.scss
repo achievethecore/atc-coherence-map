@@ -1,0 +1,42 @@
+.breadcrumd-course a {
+  color: blue;
+  text-decoration: underline;
+  margin-right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.breadcrumd-course .arrow {
+  color: #2a7251;
+  top: 1px;
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-top: 1px solid #2a7251;
+  border-left: 1px solid #2a7251;
+  transform: rotate(-45deg);
+  margin-right: 10px;
+
+  cursor: pointer;
+}
+
+.breadcrumd-course {
+  max-width: 1165px;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  margin-top: -15px;
+}
+.breadcrumd-course .breadcrumd-name {
+  color: #2a7251;
+  padding-bottom: 1px;
+  font-family: museo_sans300;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 300;
+}

@@ -1,0 +1,47 @@
+.onHS.selected {
+  -webkit-animation: scaleToMax .5s; /* Safari 4+ */
+  -moz-animation:    scaleToMax .5s; /* Fx 5+ */
+  -o-animation:      scaleToMax .5s; /* Opera 11.5+ */
+  animation:         scaleToMax .5s; /* IE 10+, Fx 29+ */
+}
+.onCatHS {
+  .domain-cards {
+    -webkit-animation: scaleToMax .5s; /* Safari 4+ */
+    -moz-animation:    scaleToMax .5s; /* Fx 5+ */
+    -o-animation:      scaleToMax .5s; /* Opera 11.5+ */
+    animation:         scaleToMax .5s; /* IE 10+, Fx 29+ */
+  }
+}
+
+@-webkit-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-moz-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-o-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}

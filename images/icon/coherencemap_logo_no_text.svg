@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="30px" viewBox="0 0 37 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Nav/Desktop/CoherenceMap/Condensed" transform="translate(-21.000000, -16.000000)" stroke="#50524F" stroke-width="2.24">
+            <g id="Nav/Desktop/CoherenceMap">
+                <g id="Logo" transform="translate(22.000000, 17.000000)">
+                    <path d="M11.88,13.62 L17.03,13.62" id="Path"></path>
+                    <path d="M17.19,7.93 L22.34,7.93" id="Path"></path>
+                    <path d="M17.19,19.3 L22.34,19.3" id="Path"></path>
+                    <path d="M17.19,7.93 L17.19,19.3" id="Path"></path>
+                    <polyline id="Path" points="18.69 27.12 3.69 27.12 3.69 0.12 30.69 0.12 30.69 16.65"></polyline>
+                    <polyline id="Path" points="30.69 10.59 22.51 10.59 22.51 5.28 30.69 5.28"></polyline>
+                    <rect id="Rectangle" x="22.51" y="16.65" width="11.76" height="5.31"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="22.51" y="5.28" width="11.76" height="5.31"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="0.12" y="10.96" width="11.76" height="5.31"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

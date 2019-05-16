@@ -1,0 +1,90 @@
+.course-info-more-about-page {
+  width: 625px;
+  margin: 0 auto;
+
+  h2 {
+    font-family: museo_sans300;
+    font-size: 42px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.76;
+    letter-spacing: 0.3px;
+    text-align: left;
+    font-weight: 300;
+    
+
+    &.page-name {
+      margin-bottom: 35px;
+      margin-top: 75px;
+    }
+  }
+
+  .content {
+    p{
+      font-family: museo_sans300;
+      font-size: 14px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      font-weight: 300;
+    }
+    
+    p {
+      margin-bottom: 11px;
+
+      & + p {
+        margin-top: 30px;
+      }
+    }
+
+    h3 {
+      font-family: museo_sans300;
+      font-size: 26px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.23;
+      letter-spacing: normal;
+      
+      margin-top: 30px;
+      margin-bottom: 35px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 40px;
+
+      tr {
+        height: 30px;
+        &.heading {
+          height: 60px;
+        }
+      }
+      th, td {
+        border: 1px solid #d8d8d8;
+        font-family: museo_sans300;
+        font-style: normal;
+        font-stretch: normal;
+        text-align: center;
+        font-weight: 300;
+      }
+
+      th {
+        font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.1px;
+        padding: 10px;
+      }
+
+      td {
+        font-size: 12px;
+        line-height: 1.58;
+        letter-spacing: 0.1px;
+        padding: 5px 10px;
+      }
+    }
+
+  }
+}

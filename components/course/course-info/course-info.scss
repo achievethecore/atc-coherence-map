@@ -1,0 +1,126 @@
+.standard-desc-plus {
+  .plus {
+    margin: 0;
+    width: 23px;
+    display: inline;
+    float: left;
+
+    font-family: museo_sans500;
+    color: #2A7251;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+.is-root {
+  .standard-desc-plus {
+    .standard-desc {
+      display: inline;
+    }
+  }
+}
+.icon-down {
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 5px;
+
+  &:after, &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+  }
+  &:before {
+    top: 50%;
+    left: 50%;
+    right: 12px;
+    width: 7px;
+    height: 7px;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -5px) rotate(135deg);
+    box-shadow: inset -1px 1px 0 0 #fff;
+    border-radius: 0 1px 0 0;
+  }
+  
+  &:after {
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 12px;
+    transform: translate(-50%, -10px);
+    background-color: #fff;
+  }
+
+
+  &.rotate {
+    height: 11px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+
+    &::after {
+      height: 9px;
+      transform: translate(-50%, -8px);
+      -webkit-transform: translate(-50%, -8px);
+      -moz-transform: translate(-50%, -8px);
+    }
+  }
+}
+
+.course-info-wrapper {
+  display: inline;
+}
+
+.course-info-container {
+  width: 1165px;
+  margin: 40px auto;
+  padding: 15px;
+  padding-bottom: 80px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  box-shadow: -3px 3px #d5d3cf, -2px 2px #d5d3cf, -1px 1px #d5d3cf;
+
+  -webkit-animation: scaleToMax .5s; /* Safari 4+ */
+  -moz-animation:    scaleToMax .5s; /* Fx 5+ */
+  -o-animation:      scaleToMax .5s; /* Opera 11.5+ */
+  animation:         scaleToMax .5s; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-moz-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@-o-keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+@keyframes scaleToMax {
+  0%   { 
+    transform: scale(0);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}

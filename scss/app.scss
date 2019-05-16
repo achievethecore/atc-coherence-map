@@ -1,0 +1,32 @@
+.modal-wrapper {
+  &.term {
+    .node {
+      .button {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.far-bottom {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 18px;
+}
+.modal h4.far-hs {
+  font-family: museo_sans300;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 18px;
+}
+@media  (max-width: 1060px) {
+  .logo-top {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1059px) {
+  .logo-top-mobile {
+    display: none;
+    visibility: hidden;
+  }
+}

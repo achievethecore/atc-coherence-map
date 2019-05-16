@@ -1,0 +1,20 @@
+.parent-standard-name {
+  margin-bottom: 5px;
+  font-family: museo_sans300;
+  font-size: 20px;
+} 
+.btn-mapstandard {
+  position: absolute;
+  bottom: 25px;
+  width: 560px !important;
+}
+
+.node {
+  .standard-desc-plus {
+    &.overlapped {
+      .standard-desc {
+        height: 50px;
+      }
+    }
+  }
+}

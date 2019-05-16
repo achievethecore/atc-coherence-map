@@ -1,0 +1,101 @@
+.modeling-landing-page {
+  .node {
+    button {
+      width: auto;
+      min-width: 252px;
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    font-family: museo_sans300;
+    font-size: 42px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.76;
+    letter-spacing: 0.3px;
+    text-align: center;
+    font-weight: 300;
+
+    &.landing-page-name {
+      margin-top: 75px;
+      margin-bottom: 55px;
+    }
+  }
+
+  h3 {
+    font-family: museo_sans300;
+    font-size: 32px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    font-weight: 300;
+  }
+
+  .content {
+    p,
+    ul li {
+      font-family: museo_sans300;
+      font-size: 14px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.86;
+      letter-spacing: normal;
+      margin-bottom: 11px;
+      font-weight: 300;
+    }
+
+    p {
+      &.modeling-cycle {
+        font-size: 10px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: 0.2px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+        a {
+          color: #2a7251;
+        }
+      }
+    }
+
+    ul {
+      padding-left: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      min-height: 94px;
+    }
+  }
+}
+
+.rows {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;  
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
+  .col {
+    &-2 {
+      position: relative;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 0 60px;
+    }
+    &-left {
+      border-right: 1px solid #CCC;
+    }
+  }
+}
