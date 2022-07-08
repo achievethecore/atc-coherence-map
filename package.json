@@ -27,6 +27,9 @@
     "eslint-plugin-react": "^3.0.0",
     "webpack-dev-server": "^2.9.7"
   },
+  "resolutions": {
+    "async": "^2.6.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --history-api-fallback",
